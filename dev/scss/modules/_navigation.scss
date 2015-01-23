@@ -1,0 +1,97 @@
+// *************************************
+//
+// Navigation
+// -> Reusable navigation module
+//
+// *************************************
+
+//midden header
+//------------------------------------------------------------------------------------------------------------- -->
+
+//nav------------------------------------------------------------------------------------------------->
+.header-midden{}
+.header-midden-nav{
+	padding: 0;
+}
+.Navigation-list{
+  margin:0;
+}
+
+.Navigation-list--dropdown{
+	background:$base-primaryBg;
+}
+
+.Navigation-listItem{
+  float: left;
+  padding: 15px;
+  margin: 0 5px;
+  font-size: 12px;
+  background: $base-primaryBg;
+  border-radius: 0px 0px 15px 15px;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow:    0px 5px 5px 0px rgba(0, 0, 0, 0.65);
+  box-shadow:         0px 5px 5px 0px rgba(0, 0, 0, 0.65);
+
+  	&:first-of-type{
+  		margin-left: 0;
+  	}
+
+  	&:last-of-type {
+  		float: right;
+	background: #f26432;
+    a {
+
+      color: $base-primaryBg;
+    }
+  	}
+
+  	a{
+  		color: $a-normal;
+  		font-weight: bold;
+  		text-transform: uppercase;
+  	}
+}
+
+.Navigation-listItem.is-active{
+	background: #f26432;
+	a{
+	color:$base-primaryBg;
+	}
+}
+
+.Navigation-link{
+  margin:0 auto;
+}
+
+.Bot-Nav {
+	height: 80px;
+}
+
+.Navigation-listItem:hover{
+	padding-top: 18px;
+}
+.Navigation-listItem--hasDropdown:hover{
+	background:lighten($a-style, 10%);
+	ul{
+		a.Navigation-link{
+		color:$a-normal;
+		}
+	}
+	ul:hover{
+		a.Navigation-link{
+			color:$base-primaryBg;
+		}
+	}
+
+}
+.Navigation-listItem--hasDropdown.is-active:hover{
+	a.Navigation-link{
+			color:$base-primaryBg;
+	}
+}
+
+.Nav-toggle {
+  .Icon.Icon--inline {
+   	fill:$base-borderColor1;
+  }
+}

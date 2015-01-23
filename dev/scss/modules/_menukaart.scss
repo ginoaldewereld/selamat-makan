@@ -1,0 +1,95 @@
+.menu-menu {
+	.menu-box {
+		background: $content-leftBg;
+		padding: 10px;
+		width: 100%;
+		border-radius: 5px;
+		text-align: center;
+		font-weight: bold;
+		font-size: 15px;
+		color: white;
+		margin-bottom: 10px;
+	}
+
+	.menu-box.stick {
+		position: fixed;
+    	top: 20px;
+    	z-index: 10000;
+    	max-width: 1040px;
+	}
+
+	select {
+		padding: 10px;
+		color: black;
+	}
+}
+
+.menu-categorie {
+	padding: 40px;
+	background: $base-primaryBgImage;
+	border: 3px solid black;
+	margin-bottom: 20px;
+	font-family: serif;
+}
+
+.menu-outer {
+	padding: 50px;
+		background: url(../img/tileable_wood_texture.png);
+			margin-bottom: 20px;
+}
+
+@media all and (max-width: 1000px) {
+	.menu-outer {
+	padding: 0px;
+	background: #FCEEE5;
+	}
+
+	.menu-categorie {
+	padding: 20px;
+	background: #FCEEE5;
+	border: none;
+	}
+} 
+
+
+.menu_manager {
+	h1 {
+		margin: 0;
+		padding: 0;
+		font-size: 36px;
+		font-family: 'Rouge Script';
+		text-align: center;
+	}
+}
+
+.menu_category h2 {
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.menu_category_desc {
+	display: none;
+}
+
+li h3 {
+	font-size: 18px;
+}
+
+.dranken {
+	li h3 {
+		font-size: 13px;
+		padding: 0;
+		margin: 0;
+		font-weight: bold;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+}
+
+.menu_price {
+	font-size: 20px;
+	font-weight: bold;
+
+}

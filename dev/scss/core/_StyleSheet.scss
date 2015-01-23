@@ -1,0 +1,68 @@
+// StyleSheet
+
+//schema clean-------------------------------------------------------------------------------------------------------------------------------------------------
+
+//base---------
+	
+	$base-bgColor:#fff;
+	$base-bgImg: url("../img/achtergrond_bamboo.jpg");
+	$base-primaryBg: #353422; // OOK RIGHT CONTENT COLOR!
+	$base-primaryBgImage: url("../img/old_map.png");
+	$base-secondaryBg: #29281b; // OOK VOOR FOOTER COLOR
+	$base-borderColor1: white;
+	$base-shadow: 0px 2px 16px #7A6E6E;
+
+	$base-positionRelative:0px;
+
+	$content-leftBg: url('../img/contentbg.png');
+	$content-rightBg: url('../img/contentbg.png');
+
+//font---------
+	
+	$font-typografie: 'Open Sans';
+	$font-titel-color: #7A6E6E;
+	$font-subTitel-color: #fff;
+	$font-paragraafTitel-color: #fff;
+
+// a ----------
+	$a-normal:#FFF;
+	$a-style:#7A6E6E;
+
+//eind clean-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+//base -------------------------------------------------------------------------------------------------------------------------------------------------------
+body{
+	 background-image: $base-bgImg; 
+	 font-family: $font-typografie; 
+}
+
+
+.header-midden-nav{
+
+	box-shadow: 0px 2px 16px $base-shadow; 
+}
+
+.header-onderkant{
+	box-shadow: 0px 2px 16px $base-shadow;
+	background:$base-bgColor;
+}
+.threecolumns-wrapper{
+	background: $base-bgColor;
+}
+.fullwidth-wrapper{
+	background:$base-bgColor;
+}
+.button{
+	background:$base-primaryBg;
+	color:$a-normal;
+}
+.button:hover{
+	background:lighten($a-style, 10%);
+	color: $base-primaryBg;
+}
+// eind base -------------------------------------------------------------------------------------------------------------------------------------------------
+

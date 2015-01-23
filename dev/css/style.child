@@ -1,0 +1,12 @@
+/*
+Theme Name: slate-0.3.1_selamat-makan
+Theme URI: https://github.com/SamTaal/selamat-makan
+Description: a clean slate - selamat-makan child theme
+Version: 0.3.1
+Author: Sam
+Author URI: http://www.lokaalgevonden.nl
+Tags: slate
+Template: slate-0.3.1
+*/
+
+@import url('../slate-0.3.1/style.css');
