@@ -21,7 +21,9 @@ Template Name: Referenties
 							<h2>Laatste 6 referenties</h2>
 							<?php echo do_shortcode('[RICH_REVIEWS_SHOW num="6"]'); ?>
 						</div>
-
+						<div class="meer-referenties">
+							<a href="http://selamat-makan.nl/alle-referenties/"><button>Meer Referenties</button></a>
+						</div>
 						<div class="content-left">
 							<h2>Schrijf er zelf een!</h2><br />
 							<?php echo do_shortcode('[RICH_REVIEWS_FORM]'); ?>

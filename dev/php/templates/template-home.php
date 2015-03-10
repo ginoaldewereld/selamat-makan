@@ -59,7 +59,7 @@ Template Name: Homepage
 							<h2>Bestel en laat bezorgen</h2>
 							<a href="http://selamatmakan.avondeten.com/"><div class="bestel-button">Online eten bestellen</div></a>
 							<p>
-								Gemakkelijke uw eten laten bezorgen	
+								Gemakkelijke uw eten laten bezorgen als u dat wiltqwerqwe	
 							</p>
 						</div>
 
